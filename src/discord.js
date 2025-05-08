@@ -40,7 +40,7 @@ function createEmbed(url, commits, size, pusher) {
   }
   const latest = commits[0]
   return new MessageEmbed()
-    .setColor(0x008080)
+    .setColor(0x0ea4ea)
     .setAuthor({
       name: `⚡ ${pusher} pushed ${size} commit${
         size === 1 ? '' : 's'
